@@ -1,4 +1,5 @@
 import React from "react";
+import { connect } from "react-redux";
 
 import Card from "./Card";
 
@@ -24,4 +25,4 @@ function mapStateToProps(state) {
 	}
 }
 
-export default Soma;
+export default connect(mapStateToProps)(Soma);
