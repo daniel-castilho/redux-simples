@@ -3,8 +3,7 @@ import { connect } from "react-redux";
 
 import "./Intervalo.css";
 import Card from "./Card";
-import { alterarNumeroMinimo } from '../store/actions/numeros';
-import { alterarNumeroMaximo } from '../store/actions/numeros';
+import { alterarNumeroMinimo, alterarNumeroMaximo } from '../store/actions/numerosAction';
 
 const Intervalo = (props) => {
 	const { min, max } = props;
