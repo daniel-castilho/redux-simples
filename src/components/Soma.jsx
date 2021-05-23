@@ -2,7 +2,7 @@ import React from "react";
 
 import Card from "./Card";
 
-export default (props) => {
+function Soma(props) {
 	return (
 		<Card title="Soma dos Números" blue>
 			<div>
@@ -14,3 +14,5 @@ export default (props) => {
 		</Card>
 	);
 };
+
+export default Soma;

@@ -2,7 +2,7 @@ import React from "react";
 
 import Card from "./Card";
 
-export default (props) => {
+function Sorteio(props) {
 	return (
 		<Card title="Sorteio de um Número" purple>
 			<div>
@@ -14,3 +14,5 @@ export default (props) => {
 		</Card>
 	);
 };
+
+export default Sorteio;
