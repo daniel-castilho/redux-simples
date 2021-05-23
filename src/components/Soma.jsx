@@ -24,6 +24,4 @@ function mapStateToProps(state) {
 	}
 }
 
-export default connect(mapStateToProps)(Soma);
-
 export default Soma;
